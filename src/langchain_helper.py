@@ -4,8 +4,8 @@ from langchain_groq import ChatGroq
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_core.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
-from langchain.memory.buffer import ConversationBufferMemory
-from langchain_community.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationalRetrievalChain
 from dotenv import load_dotenv
 load_dotenv()
 
