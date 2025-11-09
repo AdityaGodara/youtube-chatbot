@@ -2,9 +2,9 @@ from langchain_community.document_loaders import YoutubeLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
-from langchain.memory import ConversationBufferMemory
+from langchain_core.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from dotenv import load_dotenv
 
